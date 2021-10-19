@@ -1,4 +1,5 @@
-import { NgModule } from '@angular/core';
+import { DishService } from './services/dish.service';
+import { Input, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar'; 
@@ -31,7 +32,7 @@ import { DishDetailComponent } from './dish-detail/dish-detail.component';
     MatCardModule,
     MatButtonModule,
   ],
-  providers: [],
+  providers: [DishService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
