@@ -5,7 +5,7 @@
     </div>
     <div fxFlex>
         <mat-grid-list cols="2" rowHeight="200px">
-            <mat-grid-tile *ngFor="let dish of dishes">
+            <mat-grid-tile *ngFor="let dish of dishes" (click) = "onSelect(dish)">
                 <img src={{dish.image}} alt="" style="width: 200px;">
                 <mat-grid-tile-footer style="background-image: linear-gradient(
                     45deg,
@@ -17,7 +17,7 @@
                 </mat-grid-tile-footer>
             </mat-grid-tile>
         </mat-grid-list>
-        <app-dish-detail></app-dish-detail>
+        <app-dish-detail [dish] = "selectedDish"></app-dish-detail>
     </div>
     
 </div>
