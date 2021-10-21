@@ -1,4 +1,5 @@
 import { DishService } from './services/dish.service';
+import { LeaderService } from './services/leader.service'; 
 import { Input, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -44,7 +45,7 @@ import { ContactComponent } from './contact/contact.component';
     MatButtonModule,
     FontAwesomeModule,
   ],
-  providers: [DishService],
+  providers: [DishService, LeaderService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
