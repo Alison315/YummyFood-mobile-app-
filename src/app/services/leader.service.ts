@@ -9,5 +9,8 @@ export class LeaderService {
   constructor() { }
   getLeaders(){
     return LEADERS;
+  };
+  getFeaturedLeader(){
+    return LEADERS.filter((leader)=>leader.featured)[0];
   }
 }
