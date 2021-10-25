@@ -1,5 +1,8 @@
+import { LoginComponent } from './../login/login.component';
 import { Component, OnInit } from '@angular/core';
-import { faHome,faInfo, faList, faAddressCard} from '@fortawesome/free-solid-svg-icons';
+import { faHome,faInfo, faList, faAddressCard, faSignInAlt } from '@fortawesome/free-solid-svg-icons';
+import { MatDialog, MatDialogRef} from '@angular/material/dialog';
+
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -10,10 +13,13 @@ export class HeaderComponent implements OnInit {
   faInfo = faInfo;
   faList = faList;
   faAddressCard = faAddressCard;
+  faSignInAlt = faSignInAlt;
   
-  constructor() { }
+  constructor(public dialog:MatDialog) { }
 
   ngOnInit(): void {
   }
-
+  openLoginForm(){
+    this.dialog.open(LoginComponent,{width:'500px',height:'450px'})
+  }
 }
