@@ -7,10 +7,14 @@ import { MatDialog, MatDialogRef} from '@angular/material/dialog';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-
-  constructor() { }
+  
+  user={username:'',password:'',remember:false}
+  constructor(public dialogRef:MatDialogRef<LoginComponent>) { } //表单提交的时候如何处理
 
   ngOnInit(): void {
   }
-
+  onSubmit(){
+  console.log('User: ', this.user);
+  this.dialogRef.close(); //提交的时候整个dialog也被dismiss
+  }
 }
