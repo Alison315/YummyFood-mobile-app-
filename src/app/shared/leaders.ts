@@ -3,7 +3,7 @@ import { Leader } from './leader';
 export const LEADERS:Leader[]=[
     {
       id: '0',
-      name: 'Peter Pan',
+      name: 'Lorem Ipsum',
       image: '/assets/images/alison.png',
       designation: 'Chief Epicurious Officer',
       abbr: 'CEO',
@@ -13,13 +13,13 @@ export const LEADERS:Leader[]=[
     },
     {
       id: '1',
-      name: 'Dhanasekaran Witherspoon',
+      name: 'Jackie Chan',
       image: '/assets/images/alison.png',
       designation: 'Chief Food Officer',
       abbr: 'CFO',
       featured: false,
       // tslint:disable-next-line:max-line-length
-      description: 'Our CFO, Danny, as he is affectionately referred to by his colleagues, comes from a long established family tradition in farming and produce. His experiences growing up on a farm in the Australian outback gave him great appreciation for varieties of food sources. As he puts it in his own words, Everything that runs, wins, and everything that stays, pays!'
+      description: 'Our CFO, Jackie, as he is affectionately referred to by his colleagues, comes from a long established family tradition in farming and produce. His experiences growing up on a farm in the Australian outback gave him great appreciation for varieties of food sources. As he puts it in his own words, Everything that runs, wins, and everything that stays, pays!'
     },
     {
       id: '2',
@@ -39,6 +39,6 @@ export const LEADERS:Leader[]=[
       abbr: 'EC',
       featured: true,
       // tslint:disable-next-line:max-line-length
-      description: 'Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!'
+      description: 'Award winning three-star Michelin chef, specializes in creating mouthwatering Sino-Italian fusion experiences.'
     }
   ];

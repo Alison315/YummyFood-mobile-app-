@@ -3,14 +3,14 @@ import { Dish } from './dish';
 export const DISHES: Dish[] = [
     {
         id: '0',
-        name: 'Uthappizza',
+        name: 'Peking Duck pizza',
         image: '/assets/images/uthappizza.png',
         category: 'mains',
         featured: true,
         label: 'Hot',
         price: '4.99',
         // tslint:disable-next-line:max-line-length
-        description: 'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.',
+        description: 'A unique combination of Peking duck and Italian pizza, topped with spring onion, sweet bean sauce, and mozzarella cheese.',
         comments: [
             {
                 rating: 5,
@@ -46,7 +46,7 @@ export const DISHES: Dish[] = [
     },
     {
         id: '1',
-        name: 'Zucchipakoda',
+        name: 'fried crispork',
         image: '/assets/images/zucchipakoda.png',
         category: 'appetizer',
         featured: false,
@@ -88,7 +88,7 @@ export const DISHES: Dish[] = [
     },
     {
         id: '2',
-        name: 'Vadonut',
+        name: 'black truffle fried rice',
         image: '/assets/images/vadonut.png',
         category: 'appetizer',
         featured: false,
@@ -130,7 +130,7 @@ export const DISHES: Dish[] = [
     },
     {
         id: '3',
-        name: 'ElaiCheese Cake',
+        name: 'Chinese yum ice cream',
         image: '/assets/images/elaicheesecake.png',
         category: 'dessert',
         featured: false,
