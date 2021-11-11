@@ -1,6 +1,10 @@
 # YummyFood
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.6.
+This is a responsive web application about a restaurant, working on both desktop and mobile devices. It is orginally designed as a mobile app, so it looks better on smaller screens.
+
+Built user interface by Angular material, font awesome, HTML, and CSS, this is a purely front end app.
+
+Generated with Angular CLI version 12.2.6.
 
 ## Development server
 
