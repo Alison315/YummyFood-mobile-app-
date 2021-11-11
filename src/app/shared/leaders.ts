@@ -4,7 +4,7 @@ export const LEADERS:Leader[]=[
     {
       id: '0',
       name: 'Lorem Ipsum',
-      image: '/assets/images/alison.png',
+      image: './assets/images/alison.png',
       designation: 'Chief Epicurious Officer',
       abbr: 'CEO',
       featured: false,
@@ -14,7 +14,7 @@ export const LEADERS:Leader[]=[
     {
       id: '1',
       name: 'Jackie Chan',
-      image: '/assets/images/alison.png',
+      image: './assets/images/alison.png',
       designation: 'Chief Food Officer',
       abbr: 'CFO',
       featured: false,
@@ -24,7 +24,7 @@ export const LEADERS:Leader[]=[
     {
       id: '2',
       name: 'Agumbe Tang',
-      image: '/assets/images/alison.png',
+      image: './assets/images/alison.png',
       designation: 'Chief Taste Officer',
       abbr: 'CTO',
       featured: false,
@@ -34,7 +34,7 @@ export const LEADERS:Leader[]=[
     {
       id: '3',
       name: 'Alison Nan',
-      image: '/assets/images/alison.png',
+      image: './assets/images/alison.png',
       designation: 'Executive Chef',
       abbr: 'EC',
       featured: true,
