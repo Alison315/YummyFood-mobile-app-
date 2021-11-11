@@ -4,7 +4,7 @@ export const DISHES: Dish[] = [
     {
         id: '0',
         name: 'Peking Duck pizza',
-        image: '/assets/images/pizza.png',
+        image: './assets/images/pizza.png',
         category: 'mains',
         featured: true,
         label: 'Hot',
@@ -47,7 +47,7 @@ export const DISHES: Dish[] = [
     {
         id: '1',
         name: 'fried crispork',
-        image: '/assets/images/pork.png',
+        image: './assets/images/pork.png',
         category: 'appetizer',
         featured: false,
         label: '',
@@ -89,7 +89,7 @@ export const DISHES: Dish[] = [
     {
         id: '2',
         name: 'black truffle fried rice',
-        image: '/assets/images/rice.png',
+        image: './assets/images/rice.png',
         category: 'appetizer',
         featured: false,
         label: 'New',
@@ -131,7 +131,7 @@ export const DISHES: Dish[] = [
     {
         id: '3',
         name: 'Chinese yum ice cream',
-        image: '/assets/images/yum.png',
+        image: './assets/images/yum.png',
         category: 'dessert',
         featured: false,
         label: '',
