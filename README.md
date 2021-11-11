@@ -1,6 +1,8 @@
 # YummyFood
 
-This is a responsive web application about a restaurant, working on both desktop and mobile devices. It is orginally designed as a mobile app, so it looks better on smaller screens.
+A responsive web application about a restaurant called Yummy Food.
+
+It is an Angular SPA that works on both desktop and mobile devices. Looks better on smaller screens as it is orginally designed as a mobile app.
 
 Built user interface by Angular material, font awesome, HTML, and CSS, this is a purely front end app.
 
