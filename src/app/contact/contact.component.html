@@ -21,23 +21,24 @@
           <fa-icon [icon]="faPhone"></fa-icon>: 0450400315<br>
           <fa-icon [icon]="faFax"></fa-icon>: 123456789<br>
           <fa-icon [icon]="faEnvelope"></fa-icon>: 
-                <a href="mailto:confusion@food.net">alisonnan315@gmail.com</a>
+                <a href="http://mail.google.com/">alisonnan315@gmail.com</a>
         </address>
         <p></p>
         <div>
-          <a mat-raised-button href="tel:+85212345678"><i class="fa fa-phone"></i> Call</a>
-          <a mat-raised-button><i class="fa fa-skype"></i> Skype</a>
-          <a mat-raised-button href="mailto:confusion@food.net"><i class="fa fa-envelope-o"></i> Email</a>
+          <a mat-raised-button (click)="pop()"><i class="fa fa-phone"></i> Call</a>
+          <a mat-raised-button href="https://www.skype.com/en/"><i class="fa fa-skype"></i> Skype</a>
+          <a mat-raised-button href="http://mail.google.com/"><i class="fa fa-envelope-o"></i> Email</a>
         </div>
         </div>
       <div fxFlex="40">
         <h4>Map of our Location</h4>
+        <img src="../../assets/images/map.JPG" style="width: 50%;" alt="">
       </div>
     </div>
   </div>
   <div fxFlex fxFlexOffset="20px" class="form-size">
     <h3>Send us your Feedback</h3>
-    <p>{{ feedbackForm.value | json }} {{ feedbackForm.status | json }}</p>
+    <!-- <p>{{ feedbackForm.value | json }} {{ feedbackForm.status | json }}</p> -->
 
     <form novalidate [formGroup]="feedbackForm" #fform="ngForm" (ngSubmit)="onSubmit()">
       <p>

@@ -10,8 +10,9 @@ import { DishService } from '../services/dish.service';
   styleUrls: ['./dish-detail.component.css']
 })
 export class DishDetailComponent implements OnInit {
-  
+  class:any="";
   dish!: Dish;
+  flag:any=false;
   constructor(private dishService:DishService,
     private route:ActivatedRoute,
     private location: Location) { }
@@ -22,5 +23,17 @@ export class DishDetailComponent implements OnInit {
   }
   goBack(){
     this.location.back();
+  }
+  
+  changeColor(){
+    if(this.flag){
+      this.class='';
+    }else{
+      this.class='like';
+    }
+    this.flag=!this.flag;
+  }
+  share(){
+    window.location.href='http://twitter.com/';
   }
 }

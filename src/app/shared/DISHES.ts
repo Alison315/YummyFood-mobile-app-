@@ -14,7 +14,7 @@ export const DISHES: Dish[] = [
         comments: [
             {
                 rating: 5,
-                comment: 'Imagine all the eatables, living in conFusion!',
+                comment: 'Imagine all the eatables, living in Yummy Food Fusion!',
                 author: 'John Lemon',
                 date: '2012-10-16T17:57:28.556094Z'
             },
@@ -38,7 +38,7 @@ export const DISHES: Dish[] = [
             },
             {
                 rating: 2,
-                comment: 'It\'s your birthday, we\'re gonna party! This is 1st',
+                comment: 'Pizza and duck, why not?',
                 author: '25 Cent',
                 date: '2011-12-02T17:57:28.556094Z'
             }
@@ -52,35 +52,35 @@ export const DISHES: Dish[] = [
         featured: false,
         label: '',
         price: '1.99',
-        description: 'Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce',
+        description: 'Deep fried pork coated with mildly spiced flour batter accompanied with cumin, salt and pepper',
         comments: [
             {
                 rating: 5,
-                comment: 'Imagine all the eatables, living in conFusion!',
-                author: 'John Lemon',
+                comment: 'Best fried pork!',
+                author: 'Jenny Lee',
                 date: '2012-10-16T17:57:28.556094Z'
             },
             {
                 rating: 4,
-                comment: 'Sends anyone to heaven, I wish I could get my mother-in-law to eat it!',
+                comment: 'Love the crispy outside, cannot stop.',
                 author: 'Paul McVites',
                 date: '2014-09-05T17:57:28.556094Z'
             },
             {
                 rating: 3,
-                comment: 'Eat it, just eat it!',
+                comment: 'Small cosy restaurant, it feels inviting, fried pork is my favorite!',
                 author: 'Michael Jaikishan',
                 date: '2015-02-13T17:57:28.556094Z'
             },
             {
                 rating: 4,
-                comment: 'Ultimate, Reaching for the stars!',
+                comment: 'Tastes better with ketchup!',
                 author: 'Ringo Starry',
                 date: '2013-12-02T17:57:28.556094Z'
             },
             {
                 rating: 2,
-                comment: 'It\'s your birthday, we\'re gonna party!This is 2nd',
+                comment: 'Great value, I will be back.',
                 author: '25 Cent',
                 date: '2011-12-02T17:57:28.556094Z'
             }
@@ -94,35 +94,35 @@ export const DISHES: Dish[] = [
         featured: false,
         label: 'New',
         price: '1.99',
-        description: 'A quintessential ConFusion experience, is it a vada or is it a donut?',
+        description: 'A quintessential fusion experience, is it fried rice or is it risotto?',
         comments: [
             {
                 rating: 5,
-                comment: 'Imagine all the eatables, living in conFusion!',
+                comment: 'Food was good, service is the best around, number one in my mind!',
                 author: 'John Lemon',
                 date: '2012-10-16T17:57:28.556094Z'
             },
             {
                 rating: 4,
-                comment: 'Sends anyone to heaven, I wish I could get my mother-in-law to eat it!',
+                comment: 'It\'s a great choice for a quick lunch!',
                 author: 'Paul McVites',
                 date: '2014-09-05T17:57:28.556094Z'
             },
             {
                 rating: 3,
-                comment: 'Eat it, just eat it!',
+                comment: 'Wonderful and delicious Chinese food with generous servings!',
                 author: 'Michael Jaikishan',
                 date: '2015-02-13T17:57:28.556094Z'
             },
             {
                 rating: 4,
-                comment: 'Ultimate, Reaching for the stars!',
+                comment: 'Great tasting and well worth it!',
                 author: 'Ringo Starry',
                 date: '2013-12-02T17:57:28.556094Z'
             },
             {
                 rating: 2,
-                comment: 'It\'s your birthday, we\'re gonna party!This is 3rd',
+                comment: 'Busy little shop with amazing food, love the truffle rice',
                 author: '25 Cent',
                 date: '2011-12-02T17:57:28.556094Z'
             }
@@ -136,35 +136,35 @@ export const DISHES: Dish[] = [
         featured: false,
         label: '',
         price: '2.99',
-        description: 'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms',
+        description: 'A delectable, semi-sweet Chinese Style soft serve, with cripsy egg cone and strawberry sauce',
         comments: [
             {
                 rating: 5,
-                comment: 'Imagine all the eatables, living in conFusion!',
+                comment: 'Never tried Chinese Yum before, tastes like sweet potato.',
                 author: 'John Lemon',
                 date: '2012-10-16T17:57:28.556094Z'
             },
             {
                 rating: 4,
-                comment: 'Sends anyone to heaven, I wish I could get my mother-in-law to eat it!',
+                comment: 'I had a single scoop yum cone, it\'s 10/10.',
                 author: 'Paul McVites',
                 date: '2014-09-05T17:57:28.556094Z'
             },
             {
                 rating: 3,
-                comment: 'Eat it, just eat it!',
+                comment: 'Massive ice cream fan here, absolutely love it.',
                 author: 'Michael Jaikishan',
                 date: '2015-02-13T17:57:28.556094Z'
             },
             {
                 rating: 4,
-                comment: 'Ultimate, Reaching for the stars!',
+                comment: 'Daughter and partner grabbed one and both loved it!',
                 author: 'Ringo Starry',
                 date: '2013-12-02T17:57:28.556094Z'
             },
             {
                 rating: 2,
-                comment: 'It\'s your birthday, we\'re gonna party!This is 4th',
+                comment: 'Incredible product! Prices are very, very reasonable.',
                 author: '25 Cent',
                 date: '2011-12-02T17:57:28.556094Z'
             }
